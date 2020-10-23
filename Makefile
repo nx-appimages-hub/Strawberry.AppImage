@@ -15,5 +15,5 @@ DESTINATION="Strawberry.AppImage"
 
 all: 
 	echo "Building: $(DESTINATION)"
-	wget --output-document=$(DESTINATION) https://files.strawberrymusicplayer.org/Strawberry-0.7.2.AppImage
+	wget --output-document=$(DESTINATION) https://github.com/strawberrymusicplayer/strawberry/releases/download/0.7.2/Strawberry-0.7.2.AppImage
 	chmod +x $(PWD)/$(DESTINATION)
